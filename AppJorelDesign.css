@@ -1,0 +1,122 @@
+body{
+    background-color: #CA1500;
+    color: white;    
+}
+
+.Entete p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color : inherit
+}
+
+.corps h1{
+    font-size: 200px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.corps p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nom{
+    border-left: 0px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 48px ;
+}
+
+.Entete .menu{
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    display: flex;
+    align-items: stretch;
+    justify-content: right;    
+}
+
+.Entete .menu li{
+    margin: 16px;
+    position: relative;
+    color: white;
+    flex-direction: column;
+}
+
+.description{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 48px;
+}
+
+.pieds{
+    width: 100%;
+    height: 250px;
+    background-color: #ffffff;
+    color: #000000;
+    columns: row;
+    margin-bottom: 10px;
+}
+
+.pieds p{
+    font-size: 10px;
+    color: #000000;
+    text-align: justify;
+}
+
+.pain{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    top: 50px;
+}
+.pieds img{
+    size: 50px;
+    width: 150px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.searchbar{
+    border-width: 0px;
+    border-style: none;
+    border-radius: 30px;
+    margin: 0px;
+    margin-top: 20px;
+    width: 350px;
+    height: 30px;
+}
+
+#btnConfirm{
+    background-color: white;
+    border-radius: 30px;
+    border-width: 0rem;
+    width: 100px;
+    height: 30px;
+}
